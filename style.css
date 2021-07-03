@@ -1,3 +1,32 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.orange-color{
+    color: orange;
+}
+.top-banner{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.besite{
+    width: 50%;
+    margin: 5%;
+}
+.besite img{
+    width: 95%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(gray, tomato);
+    padding: 10px 40px;
+    color: white;
+    border-radius: 5%;
 }
