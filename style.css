@@ -15,6 +15,7 @@ h2{
     display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 5%;
 }
 .besite{
     width: 50%;
@@ -29,4 +30,21 @@ h2{
     padding: 10px 40px;
     color: white;
     border-radius: 5%;
+    font-weight: 700;
+}
+.middle{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 70%;
+}
+.middle-picture{
+    padding-bottom: 5%;
+}
+.write{
+    padding-top: 5%;
+}
+p{
+    text-align: justify;
 }
